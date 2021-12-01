@@ -1,0 +1,733 @@
+# 
+#                     --- YouTube Ad Blocklist ---
+# This project was created and is maintained by: Evan Pratten (@ewpratten)
+# More information at: https://github.com/Ewpratten/youtube_ad_blocklist
+# 
+local-zone: "2975c.v.fwmrm.net" redirect
+local-data: "2975c.v.fwmrm.net A 127.0.0.1"
+local-zone: "2mdn.net" redirect
+local-data: "2mdn.net A 127.0.0.1"
+local-zone: "ad.doubleclick.net" redirect
+local-data: "ad.doubleclick.net A 127.0.0.1"
+local-zone: "ad-g.doubleclick.net" redirect
+local-data: "ad-g.doubleclick.net A 127.0.0.1"
+local-zone: "ad.mo.doubleclick.net" redirect
+local-data: "ad.mo.doubleclick.net A 127.0.0.1"
+local-zone: "ads.doubleclick.net" redirect
+local-data: "ads.doubleclick.net A 127.0.0.1"
+local-zone: "adservice.google.com" redirect
+local-data: "adservice.google.com A 127.0.0.1"
+local-zone: "ads.youtube.com" redirect
+local-data: "ads.youtube.com A 127.0.0.1"
+local-zone: "ad.youtube.com" redirect
+local-data: "ad.youtube.com A 127.0.0.1"
+local-zone: "analytic-google.com" redirect
+local-data: "analytic-google.com A 127.0.0.1"
+local-zone: "doubleclick.net" redirect
+local-data: "doubleclick.net A 127.0.0.1"
+local-zone: "dts.innovid.com" redirect
+local-data: "dts.innovid.com A 127.0.0.1"
+local-zone: "files.adform.net" redirect
+local-data: "files.adform.net A 127.0.0.1"
+local-zone: "fls.doubleclick.net" redirect
+local-data: "fls.doubleclick.net A 127.0.0.1"
+local-zone: "fwmrm.net" redirect
+local-data: "fwmrm.net A 127.0.0.1"
+local-zone: "g.doubleclick.net" redirect
+local-data: "g.doubleclick.net A 127.0.0.1"
+local-zone: "googleadapis.l.google.com" redirect
+local-data: "googleadapis.l.google.com A 127.0.0.1"
+local-zone: "googleads4.g.doubleclick.net" redirect
+local-data: "googleads4.g.doubleclick.net A 127.0.0.1"
+local-zone: "googleadservices.com" redirect
+local-data: "googleadservices.com A 127.0.0.1"
+local-zone: "googleads.g.doubleclick.net" redirect
+local-data: "googleads.g.doubleclick.net A 127.0.0.1"
+local-zone: "innovid.com" redirect
+local-data: "innovid.com A 127.0.0.1"
+local-zone: "manifest.googlevideo.com" redirect
+local-data: "manifest.googlevideo.com A 127.0.0.1"
+local-zone: "pagead1.googlesyndication.com" redirect
+local-data: "pagead1.googlesyndication.com A 127.0.0.1"
+local-zone: "pagead2.googlesyndication.com" redirect
+local-data: "pagead2.googlesyndication.com A 127.0.0.1"
+local-zone: "pagead.googlesyndication.com" redirect
+local-data: "pagead.googlesyndication.com A 127.0.0.1"
+local-zone: "pagead.l.doubleclick.net" redirect
+local-data: "pagead.l.doubleclick.net A 127.0.0.1"
+local-zone: "pixel.moatads.com" redirect
+local-data: "pixel.moatads.com A 127.0.0.1"
+local-zone: "pubads.g.doubleclick.net" redirect
+local-data: "pubads.g.doubleclick.net A 127.0.0.1"
+local-zone: "r10---sn-3c27snel.googlevideo.com" redirect
+local-data: "r10---sn-3c27snel.googlevideo.com A 127.0.0.1"
+local-zone: "r10.sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r10.sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r10---sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r10---sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r10---sn-4gxx-25gel.googlevideo.com" redirect
+local-data: "r10---sn-4gxx-25gel.googlevideo.com A 127.0.0.1"
+local-zone: "r11.sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r11.sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r11---sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r11---sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r11---sn-4gxx-25ge7.googlevideo.com" redirect
+local-data: "r11---sn-4gxx-25ge7.googlevideo.com A 127.0.0.1"
+local-zone: "r12---sn-3c27sn7z.googlevideo.com" redirect
+local-data: "r12---sn-3c27sn7z.googlevideo.com A 127.0.0.1"
+local-zone: "r13---sn-3c27sn7z.googlevideo.com" redirect
+local-data: "r13---sn-3c27sn7z.googlevideo.com A 127.0.0.1"
+local-zone: "r15.sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r15.sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r15---sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r15---sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r16---sn-4gxx-25ge7.googlevideo.com" redirect
+local-data: "r16---sn-4gxx-25ge7.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-05goxu-afvl.googlevideo.com" redirect
+local-data: "r1---sn-05goxu-afvl.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-05goxu-afvs.googlevideo.com" redirect
+local-data: "r1---sn-05goxu-afvs.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-25glen7y.googlevideo.com" redirect
+local-data: "r1---sn-25glen7y.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-25glenez.googlevideo.com" redirect
+local-data: "r1---sn-25glenez.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5e6ne6.googlevideo.com" redirect
+local-data: "r1.sn-4g5e6ne6.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5e6ne6.googlevideo.com" redirect
+local-data: "r1---sn-4g5e6ne6.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5e6nez.googlevideo.com" redirect
+local-data: "r1.sn-4g5e6nez.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5e6nez.googlevideo.com" redirect
+local-data: "r1---sn-4g5e6nez.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5e6nl6.googlevideo.com" redirect
+local-data: "r1.sn-4g5e6nl6.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5e6nl6.googlevideo.com" redirect
+local-data: "r1---sn-4g5e6nl6.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5e6ns6.googlevideo.com" redirect
+local-data: "r1.sn-4g5e6ns6.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5e6ns6.googlevideo.com" redirect
+local-data: "r1---sn-4g5e6ns6.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5e6ns7.googlevideo.com" redirect
+local-data: "r1.sn-4g5e6ns7.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5e6ns7.googlevideo.com" redirect
+local-data: "r1---sn-4g5e6ns7.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5e6nsy.googlevideo.com" redirect
+local-data: "r1.sn-4g5e6nsy.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5e6nsy.googlevideo.com" redirect
+local-data: "r1---sn-4g5e6nsy.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5e6nz7.googlevideo.com" redirect
+local-data: "r1.sn-4g5e6nz7.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5e6nz7.googlevideo.com" redirect
+local-data: "r1---sn-4g5e6nz7.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5e6nzz.googlevideo.com" redirect
+local-data: "r1.sn-4g5e6nzz.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5e6nzz.googlevideo.com" redirect
+local-data: "r1---sn-4g5e6nzz.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5edne6.googlevideo.com" redirect
+local-data: "r1.sn-4g5edne6.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5edne6.googlevideo.com" redirect
+local-data: "r1---sn-4g5edne6.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5edned.googlevideo.com" redirect
+local-data: "r1.sn-4g5edned.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5edned.googlevideo.com" redirect
+local-data: "r1---sn-4g5edned.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5ednll.googlevideo.com" redirect
+local-data: "r1.sn-4g5ednll.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5ednll.googlevideo.com" redirect
+local-data: "r1---sn-4g5ednll.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5ednly.googlevideo.com" redirect
+local-data: "r1.sn-4g5ednly.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5ednly.googlevideo.com" redirect
+local-data: "r1---sn-4g5ednly.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5ednsd.googlevideo.com" redirect
+local-data: "r1.sn-4g5ednsd.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5ednsd.googlevideo.com" redirect
+local-data: "r1---sn-4g5ednsd.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5ednse.googlevideo.com" redirect
+local-data: "r1.sn-4g5ednse.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5ednse.googlevideo.com" redirect
+local-data: "r1---sn-4g5ednse.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5ednsl.googlevideo.com" redirect
+local-data: "r1.sn-4g5ednsl.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5ednsl.googlevideo.com" redirect
+local-data: "r1---sn-4g5ednsl.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-4g5ednsr.googlevideo.com" redirect
+local-data: "r1.sn-4g5ednsr.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4g5ednsr.googlevideo.com" redirect
+local-data: "r1---sn-4g5ednsr.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-4gxx-25gel.googlevideo.com" redirect
+local-data: "r1---sn-4gxx-25gel.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-8p8v-nn5e.googlevideo.com" redirect
+local-data: "r1---sn-8p8v-nn5e.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-8p8v-nn5l.googlevideo.com" redirect
+local-data: "r1---sn-8p8v-nn5l.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-gpv7dne6.googlevideo.com" redirect
+local-data: "r1---sn-gpv7dne6.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-gpv7dned.googlevideo.com" redirect
+local-data: "r1---sn-gpv7dned.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-h0jeen76.googlevideo.com" redirect
+local-data: "r1.sn-h0jeen76.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-h0jeen76.googlevideo.com" redirect
+local-data: "r1---sn-h0jeen76.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-h0jeened.googlevideo.com" redirect
+local-data: "r1.sn-h0jeened.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-h0jeened.googlevideo.com" redirect
+local-data: "r1---sn-h0jeened.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-h0jeenle.googlevideo.com" redirect
+local-data: "r1---sn-h0jeenle.googlevideo.com A 127.0.0.1"
+local-zone: "r1.sn-h0jeln7e.googlevideo.com" redirect
+local-data: "r1.sn-h0jeln7e.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-h0jeln7e.googlevideo.com" redirect
+local-data: "r1---sn-h0jeln7e.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-h0jeln7l.googlevideo.com" redirect
+local-data: "r1---sn-h0jeln7l.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-h0jelne7.googlevideo.com" redirect
+local-data: "r1---sn-h0jelne7.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-uigxx50n-8pxk.googlevideo.com" redirect
+local-data: "r1---sn-uigxx50n-8pxk.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-25ge7nsd.googlevideo.com" redirect
+local-data: "r2---sn-25ge7nsd.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5e6ney.googlevideo.com" redirect
+local-data: "r2.sn-4g5e6ney.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5e6ney.googlevideo.com" redirect
+local-data: "r2---sn-4g5e6ney.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5e6nez.googlevideo.com" redirect
+local-data: "r2.sn-4g5e6nez.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5e6nez.googlevideo.com" redirect
+local-data: "r2---sn-4g5e6nez.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5e6nl7.googlevideo.com" redirect
+local-data: "r2.sn-4g5e6nl7.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5e6nl7.googlevideo.com" redirect
+local-data: "r2---sn-4g5e6nl7.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5e6ns6.googlevideo.com" redirect
+local-data: "r2.sn-4g5e6ns6.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5e6ns6.googlevideo.com" redirect
+local-data: "r2---sn-4g5e6ns6.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5e6nsk.googlevideo.com" redirect
+local-data: "r2.sn-4g5e6nsk.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5e6nsk.googlevideo.com" redirect
+local-data: "r2---sn-4g5e6nsk.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5e6nsy.googlevideo.com" redirect
+local-data: "r2.sn-4g5e6nsy.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5e6nsy.googlevideo.com" redirect
+local-data: "r2---sn-4g5e6nsy.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5e6nsz.googlevideo.com" redirect
+local-data: "r2.sn-4g5e6nsz.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5e6nsz.googlevideo.com" redirect
+local-data: "r2---sn-4g5e6nsz.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5e6nzl.googlevideo.com" redirect
+local-data: "r2.sn-4g5e6nzl.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5e6nzl.googlevideo.com" redirect
+local-data: "r2---sn-4g5e6nzl.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5edn7y.googlevideo.com" redirect
+local-data: "r2.sn-4g5edn7y.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5edn7y.googlevideo.com" redirect
+local-data: "r2---sn-4g5edn7y.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5edned.googlevideo.com" redirect
+local-data: "r2.sn-4g5edned.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5edned.googlevideo.com" redirect
+local-data: "r2---sn-4g5edned.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5ednee.googlevideo.com" redirect
+local-data: "r2.sn-4g5ednee.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5ednee.googlevideo.com" redirect
+local-data: "r2---sn-4g5ednee.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5ednld.googlevideo.com" redirect
+local-data: "r2.sn-4g5ednld.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5ednld.googlevideo.com" redirect
+local-data: "r2---sn-4g5ednld.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5ednle.googlevideo.com" redirect
+local-data: "r2.sn-4g5ednle.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5ednle.googlevideo.com" redirect
+local-data: "r2---sn-4g5ednle.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5ednls.googlevideo.com" redirect
+local-data: "r2.sn-4g5ednls.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5ednls.googlevideo.com" redirect
+local-data: "r2---sn-4g5ednls.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5ednly.googlevideo.com" redirect
+local-data: "r2.sn-4g5ednly.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5ednly.googlevideo.com" redirect
+local-data: "r2---sn-4g5ednly.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5ednse.googlevideo.com" redirect
+local-data: "r2.sn-4g5ednse.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5ednse.googlevideo.com" redirect
+local-data: "r2---sn-4g5ednse.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r2.sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r2---sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-5hne6n7z.googlevideo.com" redirect
+local-data: "r2---sn-5hne6n7z.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-8p8v-nn5e.googlevideo.com" redirect
+local-data: "r2---sn-8p8v-nn5e.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-8p8v-nn5l.googlevideo.com" redirect
+local-data: "r2---sn-8p8v-nn5l.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-b8u-8pml.googlevideo.com" redirect
+local-data: "r2---sn-b8u-8pml.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-b8u-nn5e.googlevideo.com" redirect
+local-data: "r2---sn-b8u-nn5e.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-gpv7dne6.googlevideo.com" redirect
+local-data: "r2---sn-gpv7dne6.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-h0jeen76.googlevideo.com" redirect
+local-data: "r2.sn-h0jeen76.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-h0jeen76.googlevideo.com" redirect
+local-data: "r2---sn-h0jeen76.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-h0jeened.googlevideo.com" redirect
+local-data: "r2---sn-h0jeened.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-h0jeenek.googlevideo.com" redirect
+local-data: "r2---sn-h0jeenek.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-h0jeener.googlevideo.com" redirect
+local-data: "r2.sn-h0jeener.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-h0jeener.googlevideo.com" redirect
+local-data: "r2---sn-h0jeener.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-h0jeenle.googlevideo.com" redirect
+local-data: "r2---sn-h0jeenle.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-h0jeln7e.googlevideo.com" redirect
+local-data: "r2.sn-h0jeln7e.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-h0jeln7e.googlevideo.com" redirect
+local-data: "r2---sn-h0jeln7e.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-h0jeln7l.googlevideo.com" redirect
+local-data: "r2---sn-h0jeln7l.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-h0jelne7.googlevideo.com" redirect
+local-data: "r2---sn-h0jelne7.googlevideo.com A 127.0.0.1"
+local-zone: "r2.sn-hp57kn6e.googlevideo.com" redirect
+local-data: "r2.sn-hp57kn6e.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-hp57kn6e.googlevideo.com" redirect
+local-data: "r2---sn-hp57kn6e.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-n4g-nmc6.googlevideo.com" redirect
+local-data: "r2---sn-n4g-nmc6.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-uigxx50n-8px6.googlevideo.com" redirect
+local-data: "r2---sn-uigxx50n-8px6.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-uigxx50n-8pxd.googlevideo.com" redirect
+local-data: "r2---sn-uigxx50n-8pxd.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-uigxx50n-8pxk.googlevideo.com" redirect
+local-data: "r2---sn-uigxx50n-8pxk.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-uigxx50n-8pxs.googlevideo.com" redirect
+local-data: "r2---sn-uigxx50n-8pxs.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-uigxx50n-8pxz.googlevideo.com" redirect
+local-data: "r2---sn-uigxx50n-8pxz.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-05goxu-3c2s.googlevideo.com" redirect
+local-data: "r3---sn-05goxu-3c2s.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-05goxu-afvl.googlevideo.com" redirect
+local-data: "r3---sn-05goxu-afvl.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-3c27sn7e.googlevideo.com" redirect
+local-data: "r3---sn-3c27sn7e.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-3c27sne7.googlevideo.com" redirect
+local-data: "r3---sn-3c27sne7.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5e6nl7.googlevideo.com" redirect
+local-data: "r3.sn-4g5e6nl7.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5e6nl7.googlevideo.com" redirect
+local-data: "r3---sn-4g5e6nl7.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5e6nld.googlevideo.com" redirect
+local-data: "r3.sn-4g5e6nld.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5e6nld.googlevideo.com" redirect
+local-data: "r3---sn-4g5e6nld.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5e6nle.googlevideo.com" redirect
+local-data: "r3.sn-4g5e6nle.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5e6nle.googlevideo.com" redirect
+local-data: "r3---sn-4g5e6nle.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5e6nsk.googlevideo.com" redirect
+local-data: "r3.sn-4g5e6nsk.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5e6nsk.googlevideo.com" redirect
+local-data: "r3---sn-4g5e6nsk.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5e6nsr.googlevideo.com" redirect
+local-data: "r3.sn-4g5e6nsr.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5e6nsr.googlevideo.com" redirect
+local-data: "r3---sn-4g5e6nsr.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5e6nsy.googlevideo.com" redirect
+local-data: "r3.sn-4g5e6nsy.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5e6nsy.googlevideo.com" redirect
+local-data: "r3---sn-4g5e6nsy.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5e6nsz.googlevideo.com" redirect
+local-data: "r3.sn-4g5e6nsz.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5e6nsz.googlevideo.com" redirect
+local-data: "r3---sn-4g5e6nsz.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5e6nzs.googlevideo.com" redirect
+local-data: "r3.sn-4g5e6nzs.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5e6nzs.googlevideo.com" redirect
+local-data: "r3---sn-4g5e6nzs.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5e6nzz.googlevideo.com" redirect
+local-data: "r3.sn-4g5e6nzz.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5e6nzz.googlevideo.com" redirect
+local-data: "r3---sn-4g5e6nzz.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5edne6.googlevideo.com" redirect
+local-data: "r3.sn-4g5edne6.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5edne6.googlevideo.com" redirect
+local-data: "r3---sn-4g5edne6.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5edne7.googlevideo.com" redirect
+local-data: "r3.sn-4g5edne7.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5edne7.googlevideo.com" redirect
+local-data: "r3---sn-4g5edne7.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5edned.googlevideo.com" redirect
+local-data: "r3.sn-4g5edned.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5edned.googlevideo.com" redirect
+local-data: "r3---sn-4g5edned.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5ednee.googlevideo.com" redirect
+local-data: "r3.sn-4g5ednee.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5ednee.googlevideo.com" redirect
+local-data: "r3---sn-4g5ednee.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5ednld.googlevideo.com" redirect
+local-data: "r3.sn-4g5ednld.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5ednld.googlevideo.com" redirect
+local-data: "r3---sn-4g5ednld.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5ednll.googlevideo.com" redirect
+local-data: "r3.sn-4g5ednll.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5ednll.googlevideo.com" redirect
+local-data: "r3---sn-4g5ednll.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5ednls.googlevideo.com" redirect
+local-data: "r3.sn-4g5ednls.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5ednls.googlevideo.com" redirect
+local-data: "r3---sn-4g5ednls.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5edns6.googlevideo.com" redirect
+local-data: "r3.sn-4g5edns6.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5edns6.googlevideo.com" redirect
+local-data: "r3---sn-4g5edns6.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5ednsd.googlevideo.com" redirect
+local-data: "r3.sn-4g5ednsd.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5ednsd.googlevideo.com" redirect
+local-data: "r3---sn-4g5ednsd.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5ednss.googlevideo.com" redirect
+local-data: "r3.sn-4g5ednss.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5ednss.googlevideo.com" redirect
+local-data: "r3---sn-4g5ednss.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5ednsz.googlevideo.com" redirect
+local-data: "r3.sn-4g5ednsz.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5ednsz.googlevideo.com" redirect
+local-data: "r3---sn-4g5ednsz.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5ednz7.googlevideo.com" redirect
+local-data: "r3.sn-4g5ednz7.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5ednz7.googlevideo.com" redirect
+local-data: "r3---sn-4g5ednz7.googlevideo.com A 127.0.0.1"
+local-zone: "r3.sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r3.sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r3---sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-4gxx-25gel.googlevideo.com" redirect
+local-data: "r3---sn-4gxx-25gel.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-gpv7dned.googlevideo.com" redirect
+local-data: "r3---sn-gpv7dned.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-h0jeened.googlevideo.com" redirect
+local-data: "r3---sn-h0jeened.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-h0jeenek.googlevideo.com" redirect
+local-data: "r3---sn-h0jeenek.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-h0jeenle.googlevideo.com" redirect
+local-data: "r3---sn-h0jeenle.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-h0jeln7l.googlevideo.com" redirect
+local-data: "r3---sn-h0jeln7l.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-h0jelne7.googlevideo.com" redirect
+local-data: "r3---sn-h0jelne7.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-n4g-nmc6.googlevideo.com" redirect
+local-data: "r3---sn-n4g-nmc6.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-uigxx50n-8px6.googlevideo.com" redirect
+local-data: "r3---sn-uigxx50n-8px6.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-uigxx50n-8pxd.googlevideo.com" redirect
+local-data: "r3---sn-uigxx50n-8pxd.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-uigxx50n-8pxe.googlevideo.com" redirect
+local-data: "r3---sn-uigxx50n-8pxe.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-uigxx50n-8pxk.googlevideo.com" redirect
+local-data: "r3---sn-uigxx50n-8pxk.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-uigxx50n-8pxs.googlevideo.com" redirect
+local-data: "r3---sn-uigxx50n-8pxs.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-uigxx50n-8pxz.googlevideo.com" redirect
+local-data: "r3---sn-uigxx50n-8pxz.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-05goxu-3c2s.googlevideo.com" redirect
+local-data: "r4---sn-05goxu-3c2s.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-25ge7nsk.googlevideo.com" redirect
+local-data: "r4---sn-25ge7nsk.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-3c27snel.googlevideo.com" redirect
+local-data: "r4---sn-3c27snel.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5e6nez.googlevideo.com" redirect
+local-data: "r4.sn-4g5e6nez.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5e6nez.googlevideo.com" redirect
+local-data: "r4---sn-4g5e6nez.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5e6ns6.googlevideo.com" redirect
+local-data: "r4.sn-4g5e6ns6.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5e6ns6.googlevideo.com" redirect
+local-data: "r4---sn-4g5e6ns6.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5e6nzs.googlevideo.com" redirect
+local-data: "r4.sn-4g5e6nzs.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5e6nzs.googlevideo.com" redirect
+local-data: "r4---sn-4g5e6nzs.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5edney.googlevideo.com" redirect
+local-data: "r4.sn-4g5edney.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5edney.googlevideo.com" redirect
+local-data: "r4---sn-4g5edney.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5ednld.googlevideo.com" redirect
+local-data: "r4.sn-4g5ednld.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5ednld.googlevideo.com" redirect
+local-data: "r4---sn-4g5ednld.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5ednly.googlevideo.com" redirect
+local-data: "r4.sn-4g5ednly.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5ednly.googlevideo.com" redirect
+local-data: "r4---sn-4g5ednly.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5edns7.googlevideo.com" redirect
+local-data: "r4.sn-4g5edns7.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5edns7.googlevideo.com" redirect
+local-data: "r4---sn-4g5edns7.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5ednsd.googlevideo.com" redirect
+local-data: "r4.sn-4g5ednsd.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5ednsd.googlevideo.com" redirect
+local-data: "r4---sn-4g5ednsd.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5ednsk.googlevideo.com" redirect
+local-data: "r4.sn-4g5ednsk.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5ednsk.googlevideo.com" redirect
+local-data: "r4---sn-4g5ednsk.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5ednsy.googlevideo.com" redirect
+local-data: "r4.sn-4g5ednsy.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5ednsy.googlevideo.com" redirect
+local-data: "r4---sn-4g5ednsy.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5ednz7.googlevideo.com" redirect
+local-data: "r4.sn-4g5ednz7.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5ednz7.googlevideo.com" redirect
+local-data: "r4---sn-4g5ednz7.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r4.sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r4---sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-4gxx-25gee.googlevideo.com" redirect
+local-data: "r4---sn-4gxx-25gee.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-a5mlrn7y.googlevideo.com" redirect
+local-data: "r4---sn-a5mlrn7y.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-gpv7dn7k.googlevideo.com" redirect
+local-data: "r4---sn-gpv7dn7k.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-gpv7dne6.googlevideo.com" redirect
+local-data: "r4---sn-gpv7dne6.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-gpv7dned.googlevideo.com" redirect
+local-data: "r4---sn-gpv7dned.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-h0jeened.googlevideo.com" redirect
+local-data: "r4.sn-h0jeened.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-h0jeened.googlevideo.com" redirect
+local-data: "r4---sn-h0jeened.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-h0jeenek.googlevideo.com" redirect
+local-data: "r4---sn-h0jeenek.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-h0jeener.googlevideo.com" redirect
+local-data: "r4---sn-h0jeener.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-h0jeenle.googlevideo.com" redirect
+local-data: "r4---sn-h0jeenle.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-h0jeln7e.googlevideo.com" redirect
+local-data: "r4.sn-h0jeln7e.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-h0jeln7e.googlevideo.com" redirect
+local-data: "r4---sn-h0jeln7e.googlevideo.com A 127.0.0.1"
+local-zone: "r4.sn-h0jeln7l.googlevideo.com" redirect
+local-data: "r4.sn-h0jeln7l.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-h0jeln7l.googlevideo.com" redirect
+local-data: "r4---sn-h0jeln7l.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-h0jelne7.googlevideo.com" redirect
+local-data: "r4---sn-h0jelne7.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-uigxx50n-8pxk.googlevideo.com" redirect
+local-data: "r4---sn-uigxx50n-8pxk.googlevideo.com A 127.0.0.1"
+local-zone: "r4---sn-uigxx50n-8pxs.googlevideo.com" redirect
+local-data: "r4---sn-uigxx50n-8pxs.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-05goxu-3c2s.googlevideo.com" redirect
+local-data: "r5---sn-05goxu-3c2s.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-05goxu-afvl.googlevideo.com" redirect
+local-data: "r5---sn-05goxu-afvl.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6n7k.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6n7k.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6n7k.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6n7k.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6n7r.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6n7r.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6n7r.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6n7r.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6ney.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6ney.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6ney.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6ney.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6nls.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6nls.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6nls.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6nls.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6ns6.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6ns6.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6ns6.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6ns6.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6ns7.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6ns7.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6ns7.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6ns7.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6nsk.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6nsk.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6nsk.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6nsk.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6nss.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6nss.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6nss.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6nss.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6nsy.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6nsy.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6nsy.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6nsy.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6nsz.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6nsz.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6nsz.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6nsz.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6nz7.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6nz7.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6nz7.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6nz7.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6nze.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6nze.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6nze.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6nze.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5e6nzl.googlevideo.com" redirect
+local-data: "r5.sn-4g5e6nzl.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5e6nzl.googlevideo.com" redirect
+local-data: "r5---sn-4g5e6nzl.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5edn7s.googlevideo.com" redirect
+local-data: "r5.sn-4g5edn7s.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5edn7s.googlevideo.com" redirect
+local-data: "r5---sn-4g5edn7s.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5ednly.googlevideo.com" redirect
+local-data: "r5.sn-4g5ednly.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5ednly.googlevideo.com" redirect
+local-data: "r5---sn-4g5ednly.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5edns6.googlevideo.com" redirect
+local-data: "r5.sn-4g5edns6.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5edns6.googlevideo.com" redirect
+local-data: "r5---sn-4g5edns6.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5ednsd.googlevideo.com" redirect
+local-data: "r5.sn-4g5ednsd.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5ednsd.googlevideo.com" redirect
+local-data: "r5---sn-4g5ednsd.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5ednsl.googlevideo.com" redirect
+local-data: "r5.sn-4g5ednsl.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5ednsl.googlevideo.com" redirect
+local-data: "r5---sn-4g5ednsl.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5ednsr.googlevideo.com" redirect
+local-data: "r5.sn-4g5ednsr.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5ednsr.googlevideo.com" redirect
+local-data: "r5---sn-4g5ednsr.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5ednsy.googlevideo.com" redirect
+local-data: "r5.sn-4g5ednsy.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5ednsy.googlevideo.com" redirect
+local-data: "r5---sn-4g5ednsy.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5ednsz.googlevideo.com" redirect
+local-data: "r5.sn-4g5ednsz.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5ednsz.googlevideo.com" redirect
+local-data: "r5---sn-4g5ednsz.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r5.sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r5---sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-gpv7dne6.googlevideo.com" redirect
+local-data: "r5---sn-gpv7dne6.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-gpv7dned.googlevideo.com" redirect
+local-data: "r5---sn-gpv7dned.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-h0jeenek.googlevideo.com" redirect
+local-data: "r5.sn-h0jeenek.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-h0jeenek.googlevideo.com" redirect
+local-data: "r5---sn-h0jeenek.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-h0jeener.googlevideo.com" redirect
+local-data: "r5---sn-h0jeener.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-h0jeenle.googlevideo.com" redirect
+local-data: "r5---sn-h0jeenle.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-h0jeln7e.googlevideo.com" redirect
+local-data: "r5---sn-h0jeln7e.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-h0jeln7l.googlevideo.com" redirect
+local-data: "r5---sn-h0jeln7l.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-h0jelne7.googlevideo.com" redirect
+local-data: "r5---sn-h0jelne7.googlevideo.com A 127.0.0.1"
+local-zone: "r5.sn-hp57yn7y.googlevideo.com" redirect
+local-data: "r5.sn-hp57yn7y.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-hp57yn7y.googlevideo.com" redirect
+local-data: "r5---sn-hp57yn7y.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-vgqskn76.googlevideo.com" redirect
+local-data: "r5---sn-vgqskn76.googlevideo.com A 127.0.0.1"
+local-zone: "r6---sn-25ge7nsl.googlevideo.com" redirect
+local-data: "r6---sn-25ge7nsl.googlevideo.com A 127.0.0.1"
+local-zone: "r6---sn-4g5e6nes.googlevideo.com" redirect
+local-data: "r6---sn-4g5e6nes.googlevideo.com A 127.0.0.1"
+local-zone: "r6.sn-4g5e6nez.googlevideo.com" redirect
+local-data: "r6.sn-4g5e6nez.googlevideo.com A 127.0.0.1"
+local-zone: "r6---sn-4g5e6nez.googlevideo.com" redirect
+local-data: "r6---sn-4g5e6nez.googlevideo.com A 127.0.0.1"
+local-zone: "r6.sn-4g5edn7e.googlevideo.com" redirect
+local-data: "r6.sn-4g5edn7e.googlevideo.com A 127.0.0.1"
+local-zone: "r6---sn-4g5edn7e.googlevideo.com" redirect
+local-data: "r6---sn-4g5edn7e.googlevideo.com A 127.0.0.1"
+local-zone: "r6.sn-4g5edne7.googlevideo.com" redirect
+local-data: "r6.sn-4g5edne7.googlevideo.com A 127.0.0.1"
+local-zone: "r6---sn-4g5edne7.googlevideo.com" redirect
+local-data: "r6---sn-4g5edne7.googlevideo.com A 127.0.0.1"
+local-zone: "r6.sn-4g5ednee.googlevideo.com" redirect
+local-data: "r6.sn-4g5ednee.googlevideo.com A 127.0.0.1"
+local-zone: "r6---sn-4g5ednee.googlevideo.com" redirect
+local-data: "r6---sn-4g5ednee.googlevideo.com A 127.0.0.1"
+local-zone: "r6.sn-4g5ednek.googlevideo.com" redirect
+local-data: "r6.sn-4g5ednek.googlevideo.com A 127.0.0.1"
+local-zone: "r6---sn-4g5ednek.googlevideo.com" redirect
+local-data: "r6---sn-4g5ednek.googlevideo.com A 127.0.0.1"
+local-zone: "r6.sn-4g5edney.googlevideo.com" redirect
+local-data: "r6.sn-4g5edney.googlevideo.com A 127.0.0.1"
+local-zone: "r6---sn-4g5edney.googlevideo.com" redirect
+local-data: "r6---sn-4g5edney.googlevideo.com A 127.0.0.1"
+local-zone: "r6.sn-4g5ednll.googlevideo.com" redirect
+local-data: "r6.sn-4g5ednll.googlevideo.com A 127.0.0.1"
+local-zone: "r6---sn-4g5ednll.googlevideo.com" redirect
+local-data: "r6---sn-4g5ednll.googlevideo.com A 127.0.0.1"
+local-zone: "r7---sn-05goxu-afvl.googlevideo.com" redirect
+local-data: "r7---sn-05goxu-afvl.googlevideo.com A 127.0.0.1"
+local-zone: "r8---sn-05goxu-afvs.googlevideo.com" redirect
+local-data: "r8---sn-05goxu-afvs.googlevideo.com A 127.0.0.1"
+local-zone: "r8.sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r8.sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r8---sn-4g5ednzz.googlevideo.com" redirect
+local-data: "r8---sn-4g5ednzz.googlevideo.com A 127.0.0.1"
+local-zone: "r8.sn-n02xgoxufvg3-2gbs.googlevideo.com" redirect
+local-data: "r8.sn-n02xgoxufvg3-2gbs.googlevideo.com A 127.0.0.1"
+local-zone: "r8---sn-n02xgoxufvg3-2gbs.googlevideo.com" redirect
+local-data: "r8---sn-n02xgoxufvg3-2gbs.googlevideo.com A 127.0.0.1"
+local-zone: "r9---sn-4gxx-25gel.googlevideo.com" redirect
+local-data: "r9---sn-4gxx-25gel.googlevideo.com A 127.0.0.1"
+local-zone: "r9---sn-4gxx-25gy.googlevideo.com" redirect
+local-data: "r9---sn-4gxx-25gy.googlevideo.com A 127.0.0.1"
+local-zone: "rtd.tubemogul.com" redirect
+local-data: "rtd.tubemogul.com A 127.0.0.1"
+local-zone: "s0.2mdn.net" redirect
+local-data: "s0.2mdn.net A 127.0.0.1"
+local-zone: "secure-ds.serving-sys.com" redirect
+local-data: "secure-ds.serving-sys.com A 127.0.0.1"
+local-zone: "securepubads.g.doubleclick.net" redirect
+local-data: "securepubads.g.doubleclick.net A 127.0.0.1"
+local-zone: "s.innovid.com" redirect
+local-data: "s.innovid.com A 127.0.0.1"
+local-zone: "ssl.google-analytics.com" redirect
+local-data: "ssl.google-analytics.com A 127.0.0.1"
+local-zone: "static.doubleclick.net" redirect
+local-data: "static.doubleclick.net A 127.0.0.1"
+local-zone: "stats.g.doubleclick.net" redirect
+local-data: "stats.g.doubleclick.net A 127.0.0.1"
+local-zone: "tpc.googlesyndication.com" redirect
+local-data: "tpc.googlesyndication.com A 127.0.0.1"
+local-zone: "www.analytic-google.com" redirect
+local-data: "www.analytic-google.com A 127.0.0.1"
+local-zone: "www.googleadservices.com" redirect
+local-data: "www.googleadservices.com A 127.0.0.1"
+local-zone: "www-google-analytics.l.google.com" redirect
+local-data: "www-google-analytics.l.google.com A 127.0.0.1"
+local-zone: "www-googletagmanager.l.google.com" redirect
+local-data: "www-googletagmanager.l.google.com A 127.0.0.1"
+local-zone: "www.googletagservices.com" redirect
+local-data: "www.googletagservices.com A 127.0.0.1"
+local-zone: "r1---sn-n8v7kne6.googlevideo.com" redirect
+local-data: "r1---sn-n8v7kne6.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-n8v7kn7r.googlevideo.com" redirect
+local-data: "r1---sn-n8v7kn7r.googlevideo.com A 127.0.0.1"
+local-zone: "r7---sn-n8v7znz7.googlevideo.com" redirect
+local-data: "r7---sn-n8v7znz7.googlevideo.com A 127.0.0.1"
+local-zone: "r9---sn-n8v7knes.googlevideo.com" redirect
+local-data: "r9---sn-n8v7knes.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-n8v7kn7k.googlevideo.com" redirect
+local-data: "r3---sn-n8v7kn7k.googlevideo.com A 127.0.0.1"
+local-zone: "r14---sn-n8v7knel.googlevideo.com" redirect
+local-data: "r14---sn-n8v7knel.googlevideo.com A 127.0.0.1"
+local-zone: "r13---sn-n8v7znsl.googlevideo.com" redirect
+local-data: "r13---sn-n8v7znsl.googlevideo.com A 127.0.0.1"
+local-zone: "r3---sn-8ph2xajvh-axql.googlevideo.com" redirect
+local-data: "r3---sn-8ph2xajvh-axql.googlevideo.com A 127.0.0.1"
+local-zone: "r2---sn-8ph2xajvh-axql.googlevideo.com" redirect
+local-data: "r2---sn-8ph2xajvh-axql.googlevideo.com A 127.0.0.1"
+local-zone: "r1---sn-8ph2xajvh-axql.googlevideo.com" redirect
+local-data: "r1---sn-8ph2xajvh-axql.googlevideo.com A 127.0.0.1"
+local-zone: "r5---sn-ci5gup-qxaee.googlevideo.com" redirect
+local-data: "r5---sn-ci5gup-qxaee.googlevideo.com A 127.0.0.1"
